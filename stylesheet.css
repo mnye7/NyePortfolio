@@ -177,6 +177,22 @@ PAGE: ABOUT
 }
 
 /***********
+FORM
+************/
+
+
+
+.form{
+border: 2px solid #6ab47b;
+width: 25%;
+padding: 10px;
+}
+
+
+
+
+
+/***********
 COLORS
 ************/
 
@@ -211,7 +227,7 @@ nav {
 /*LINKS*/
 
 a:hover {
-  background-color: yellow; 
+  background-color: yellow;
 }
 
 a {
