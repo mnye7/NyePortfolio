@@ -20,6 +20,7 @@ a {
 
 img {
   max-width: 100%;
+  box-shadow: 4px 2px;
 }
 
 
@@ -96,6 +97,9 @@ footer {
   text-align: both;
   padding-top: 50px;
   color: #ccc;
+  width: 100%;
+  bottom: 0px;
+  margin: auto;
 }
 
 .social-icon {
@@ -242,4 +246,33 @@ nav a, nav a:visited {
 /* selected nav link*/
 nav a.selected, nav a:hover {
   color: #32673f;
+}
+
+/***********
+Media Queries
+************/
+
+@media screen and (min-width: 480px){
+  body {
+
+    #primary {
+      width: 50%;
+      float: left;
+    }
+
+    #secondary {
+      width: 40%;
+      float: right;
+    }
+  }
+}
+
+#gallery li{
+  width: 28.3333%;
+}
+
+@media screen and (min-width: 660px){
+  body {
+    background: dark-green;
+  }
 }
