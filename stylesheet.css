@@ -21,6 +21,7 @@ a {
 img {
   max-width: 100%;
   box-shadow: 4px 2px;
+  color: #000;
 }
 
 
@@ -143,7 +144,7 @@ PAGE: ABOUT
 
 .profile-photo {
   display: block;
-  max-width: 150px;
+  max-width: 350px;
   margin: 0 auto 30px;
   border-radius: 100%;
 }
@@ -187,7 +188,7 @@ FORM
 
 
 .form{
-border: 2px solid #6ab47b;
+border: 2px solid #00264d;
 width: 25%;
 padding: 10px;
 }
@@ -209,10 +210,10 @@ body {
 }
 
 
-/* green color*/
+/* blue color*/
 header {
-  color: #6ab47b;
-  background-color: #599a68;
+  color: #00264d;
+  background-color: #00264d;
 }
 
 /*logo text*/
@@ -223,7 +224,7 @@ h1, h2 {
 
 /*nav background on mobile*/
 nav {
-  background: #599a68;
+  background: #0080ff;
 }
 
 
@@ -231,11 +232,11 @@ nav {
 /*LINKS*/
 
 a:hover {
-  background-color: yellow;
+  background-color: #cce6ff;
 }
 
 a {
-  color: #6ab47b;
+  color: #4da6ff;
 }
 
 /* nav link*/
@@ -245,7 +246,7 @@ nav a, nav a:visited {
 
 /* selected nav link*/
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #00264d;
 }
 
 /***********
@@ -268,7 +269,8 @@ Media Queries
 }
 
 #gallery li{
-  width: 28.3333%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media screen and (min-width: 660px){
